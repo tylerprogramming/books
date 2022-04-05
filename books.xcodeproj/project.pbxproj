@@ -11,6 +11,17 @@
 		2F713F1527F7410E0047C69A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F1427F7410E0047C69A /* ContentView.swift */; };
 		2F713F1727F741100047C69A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F713F1627F741100047C69A /* Assets.xcassets */; };
 		2F713F1A27F741100047C69A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F713F1927F741100047C69A /* Preview Assets.xcassets */; };
+		2F713F2127F7412A0047C69A /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F2027F7412A0047C69A /* Book.swift */; };
+		2F713F2427F745BD0047C69A /* books.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F2227F745BD0047C69A /* books.xcdatamodeld */; };
+		2F713F2627F747560047C69A /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F2527F747560047C69A /* ApplicationData.swift */; };
+		2F713F2927F74DC60047C69A /* InsertBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F2827F74DC60047C69A /* InsertBookView.swift */; };
+		2F713F2C27F7558D0047C69A /* BooksExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F2B27F7558D0047C69A /* BooksExtension.swift */; };
+		2F713F2E27F756220047C69A /* AuthorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F2D27F756220047C69A /* AuthorsExtension.swift */; };
+		2F713F3027F757090047C69A /* AuthorsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F2F27F757090047C69A /* AuthorsView.swift */; };
+		2F713F3227F758AD0047C69A /* InsertAuthorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F3127F758AD0047C69A /* InsertAuthorView.swift */; };
+		2F713F3427F8ED940047C69A /* ModifyBookView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F3327F8ED940047C69A /* ModifyBookView.swift */; };
+		2F713F3827F8F8F90047C69A /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F713F3727F8F8F90047C69A /* DetailView.swift */; };
+		2F78C5B227FBE18600EBA129 /* AuthorBooksView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F78C5B127FBE18600EBA129 /* AuthorBooksView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +30,17 @@
 		2F713F1427F7410E0047C69A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		2F713F1627F741100047C69A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F713F1927F741100047C69A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F713F2027F7412A0047C69A /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		2F713F2327F745BD0047C69A /* books.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = books.xcdatamodel; sourceTree = "<group>"; };
+		2F713F2527F747560047C69A /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		2F713F2827F74DC60047C69A /* InsertBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertBookView.swift; sourceTree = "<group>"; };
+		2F713F2B27F7558D0047C69A /* BooksExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BooksExtension.swift; sourceTree = "<group>"; };
+		2F713F2D27F756220047C69A /* AuthorsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsExtension.swift; sourceTree = "<group>"; };
+		2F713F2F27F757090047C69A /* AuthorsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorsView.swift; sourceTree = "<group>"; };
+		2F713F3127F758AD0047C69A /* InsertAuthorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsertAuthorView.swift; sourceTree = "<group>"; };
+		2F713F3327F8ED940047C69A /* ModifyBookView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModifyBookView.swift; sourceTree = "<group>"; };
+		2F713F3727F8F8F90047C69A /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		2F78C5B127FBE18600EBA129 /* AuthorBooksView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorBooksView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +73,12 @@
 		2F713F1127F7410E0047C69A /* books */ = {
 			isa = PBXGroup;
 			children = (
+				2F713F2A27F755710047C69A /* Extensions */,
+				2F713F2727F74DB70047C69A /* Views */,
 				2F713F1227F7410E0047C69A /* booksApp.swift */,
-				2F713F1427F7410E0047C69A /* ContentView.swift */,
+				2F713F2027F7412A0047C69A /* Book.swift */,
+				2F713F2227F745BD0047C69A /* books.xcdatamodeld */,
+				2F713F2527F747560047C69A /* ApplicationData.swift */,
 				2F713F1627F741100047C69A /* Assets.xcassets */,
 				2F713F1827F741100047C69A /* Preview Content */,
 			);
@@ -65,6 +91,29 @@
 				2F713F1927F741100047C69A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F713F2727F74DB70047C69A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				2F713F1427F7410E0047C69A /* ContentView.swift */,
+				2F713F2827F74DC60047C69A /* InsertBookView.swift */,
+				2F713F2F27F757090047C69A /* AuthorsView.swift */,
+				2F713F3127F758AD0047C69A /* InsertAuthorView.swift */,
+				2F713F3327F8ED940047C69A /* ModifyBookView.swift */,
+				2F713F3727F8F8F90047C69A /* DetailView.swift */,
+				2F78C5B127FBE18600EBA129 /* AuthorBooksView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		2F713F2A27F755710047C69A /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2F713F2B27F7558D0047C69A /* BooksExtension.swift */,
+				2F713F2D27F756220047C69A /* AuthorsExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +186,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F713F3027F757090047C69A /* AuthorsView.swift in Sources */,
+				2F713F3827F8F8F90047C69A /* DetailView.swift in Sources */,
+				2F713F2627F747560047C69A /* ApplicationData.swift in Sources */,
+				2F713F2427F745BD0047C69A /* books.xcdatamodeld in Sources */,
 				2F713F1527F7410E0047C69A /* ContentView.swift in Sources */,
+				2F713F3427F8ED940047C69A /* ModifyBookView.swift in Sources */,
 				2F713F1327F7410E0047C69A /* booksApp.swift in Sources */,
+				2F713F2E27F756220047C69A /* AuthorsExtension.swift in Sources */,
+				2F713F3227F758AD0047C69A /* InsertAuthorView.swift in Sources */,
+				2F713F2927F74DC60047C69A /* InsertBookView.swift in Sources */,
+				2F78C5B227FBE18600EBA129 /* AuthorBooksView.swift in Sources */,
+				2F713F2127F7412A0047C69A /* Book.swift in Sources */,
+				2F713F2C27F7558D0047C69A /* BooksExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +335,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,6 +365,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +401,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F713F2227F745BD0047C69A /* books.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F713F2327F745BD0047C69A /* books.xcdatamodel */,
+			);
+			currentVersion = 2F713F2327F745BD0047C69A /* books.xcdatamodel */;
+			path = books.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 2F713F0727F7410E0047C69A /* Project object */;
 }
